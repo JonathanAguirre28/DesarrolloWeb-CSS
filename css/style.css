@@ -1,3 +1,236 @@
-.footer__Imagen, .header__Imagen{width: 100px; height: auto;}
-a{text-decoration: none; }
-ul{list-style: none;}
+/* --------------------------------- GENERAL -------------------------------- */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.footer__Imagen,
+.header__Imagen {
+    width: 100px;
+    height: 100x;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 20px;
+    margin: 20px;
+}
+
+.header {
+    background-color: rgb(87, 154, 255);
+    display: flex;
+    justify-content: space-between;
+    height: 96px;
+    align-items: center;
+}
+
+.header__nav li a:hover {
+    font-size: 30px;
+    background-color: black;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+
+
+.main__Imagen {
+    width: 100%;
+    height: auto;
+}
+
+.Main__titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.main__Imagen2 {
+    width: 100%;
+    height: auto;
+}
+
+.footer__grid {
+    background-color: rgb(87, 154, 255);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row
+}
+
+.main__titulo {
+    display: flex;
+    justify-content: center;
+}
+
+a,
+h3 {
+    font-size: 22px;
+    color: azure;
+}
+
+.footer__titulorrss{
+    transition: all .5s;
+}
+
+.footer__titulorrss:hover{
+    font-size: 30px;
+    background-color: rgb(1, 12, 3);
+    padding: 4px;
+    border-radius: 30px;
+}
+
+.footer__TituloContacto:hover {
+    font-size: 30px;
+    background-color: rgb(1, 12, 3);
+    padding: 4px;
+    border-radius: 50px;
+}
+   
+
+.footer__ImgWsp {
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.footer__TituloContacto {
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+    transition: all .5s;
+}
+
+.gridMain {
+    background-color: aquamarine;
+}
+
+p,
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(1, 59, 26);
+}
+
+/* --------------------------------- DESKTOP -------------------------------- */
+@media screen and (min-width: 1024px) {
+    .grid {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "main"
+            "footer";
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+    }
+
+    .Header {
+        grid-area: header;
+    }
+
+    .main {
+        grid-area: main;
+    }
+
+    .footer {
+        grid-area: footer;
+    }
+
+    .gridMain {
+        display: grid;
+        grid-template-areas:
+            "main__Img main__Img main__Img"
+            "main__titulo main__titulo main__titulo"
+            "main__ParrafoIzq main__ImagenParrafo main__ParrafoDer";
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 33% 34% 33%;
+    }
+
+    .main__Img {
+        grid-area: main__Img;
+    }
+
+    .main__titulo {
+        grid-area: main__titulo;
+    }
+
+    .main__ParrafoIzq {
+        grid-area: main__ParrafoIzq;
+    }
+
+    .main__ImagenParrafo {
+        grid-area: main__ImagenParrafo;
+    }
+
+    .main__ParrafoDer {
+        grid-area: main__ParrafoDer;
+    }
+
+    .main__modificador {
+        font-size: 30px;
+    }
+
+    .header__nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main__modificador {
+        margin: 40px;
+    }
+    
+}
+
+
+/* --------------------------------- MOBILE --------------------------------- */
+@media screen and (max-width: 768px) {
+
+    .header__nav,
+    .footer__grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+
+    li {
+        padding: 2px;
+        margin: 2px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .footer__ImgWsp {
+        width: 50px;
+        height: auto;
+        border-radius: 50px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    a {
+        font-size: 18px;
+    }
+
+    .main__titulo{
+        margin: 20px;
+    }
+
+    .main__ParrafoIzq, .main__ParrafoDer{
+        padding: 10px;}
+    }
