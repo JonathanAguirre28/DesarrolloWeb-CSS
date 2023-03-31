@@ -117,6 +117,18 @@ h1 {
     color: rgb(1, 59, 26);
 }
 
+.M20{
+    margin: 20px;
+}
+
+.main__imagennosotros{
+    width: 300px;
+    height: auto;
+}
+.main__Imagen{
+    border-radius: 20px; align-items: center; background-color: rgb(89, 114, 250);
+}
+
 /* --------------------------------- DESKTOP -------------------------------- */
 @media screen and (min-width: 1024px) {
     .grid {
