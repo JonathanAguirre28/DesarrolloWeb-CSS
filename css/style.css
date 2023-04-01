@@ -127,6 +127,7 @@ h1 {
 }
 
 .main__ImagenNos {
+    display: flex;
     border-radius: 20px;
     align-items: center;
     background-color:  rgb(232, 232, 232);
@@ -137,6 +138,7 @@ h1 {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
+    justify-content: space-between;
 
 }
 
@@ -147,6 +149,9 @@ h1 {
 
 .main__contenido {
     padding: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .gridNosotros {
@@ -159,6 +164,7 @@ h1 {
     font-size: 20px;
     background-color: rgb(186, 133, 133);
     transition: all .5s;
+    width: 100px;
 }
 .main__booton:hover{
     background-color: brown;
