@@ -75,11 +75,11 @@ h3 {
     color: azure;
 }
 
-.footer__titulorrss{
+.footer__titulorrss {
     transition: all .5s;
 }
 
-.footer__titulorrss:hover{
+.footer__titulorrss:hover {
     font-size: 30px;
     background-color: rgb(1, 12, 3);
     padding: 4px;
@@ -92,7 +92,7 @@ h3 {
     padding: 4px;
     border-radius: 50px;
 }
-   
+
 
 .footer__ImgWsp {
     width: 100px;
@@ -108,7 +108,7 @@ h3 {
 }
 
 .gridMain {
-    background-color: aquamarine;
+    background-color: rgb(232, 232, 232);
 }
 
 p,
@@ -117,16 +117,52 @@ h1 {
     color: rgb(1, 59, 26);
 }
 
-.M20{
+.M20 {
     margin: 20px;
 }
 
-.main__imagennosotros{
-    width: 300px;
+.main__imagennosotros {
+    width: 200px;
     height: auto;
 }
-.main__Imagen{
-    border-radius: 20px; align-items: center; background-color: rgb(89, 114, 250);
+
+.main__ImagenNos {
+    border-radius: 20px;
+    align-items: center;
+    background-color:  rgb(232, 232, 232);
+    padding: 20px;
+}
+
+.main--card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+
+}
+
+.main--flex {
+    border-radius: 20px;
+    background-color: rgb(173, 163, 163);
+}
+
+.main__contenido {
+    padding: 20px;
+}
+
+.gridNosotros {
+    background-color:  rgb(232, 232, 232);
+    column-gap: 20px;
+    padding: 20px;
+}
+.main__booton{
+    border-radius:5px;
+    font-size: 20px;
+    background-color: rgb(186, 133, 133);
+    transition: all .5s;
+}
+.main__booton:hover{
+    background-color: brown;
+    font-size: 25px;
 }
 
 /* --------------------------------- DESKTOP -------------------------------- */
@@ -185,6 +221,7 @@ h1 {
 
     .main__modificador {
         font-size: 30px;
+        margin: 40px;
     }
 
     .header__nav {
@@ -192,11 +229,48 @@ h1 {
         flex-direction: row;
     }
 
-    .main__modificador {
-        margin: 40px;
+    .main__ParrafoIzq,
+    .main__ParrafoDer {
+        font-size: 20px;
     }
-    
+
+
+    /* -------------------------------- gridIndex ------------------------------- */
+
+    .gridNosotros {
+        display: grid;
+        grid-template-areas:
+            "main__encabezado main__encabezado main__encabezado main__encabezado"
+            "main--card1 main--card2 main--card3 main--card4";
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
+    }
+
+    .main__encabezado {
+        grid-area: main__encabezado;
+    }
+
+    .main--card1 {
+        grid-area: main--card1;
+    }
+
+    .main--card2 {
+        grid-area: main--card2;
+    }
+
+    .main--card3 {
+        grid-area: main--card3;
+    }
+
+    .main--card4 {
+        grid-area: main--card4;
+    }
+
 }
+
+/* ------------------------------ gridNosotros ------------------------------ */
+
+
 
 /* --------------------------------- MOBILE --------------------------------- */
 @media screen and (max-width: 768px) {
@@ -208,7 +282,7 @@ h1 {
         align-items: center;
     }
 
-    .header{
+    .header {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -238,10 +312,14 @@ h1 {
         font-size: 18px;
     }
 
-    .main__titulo{
+    .main__titulo {
         margin: 20px;
     }
 
-    .main__ParrafoIzq, .main__ParrafoDer{
-        padding: 10px;}
+    .main__ParrafoIzq,
+    .main__ParrafoDer {
+        padding: 10px;
     }
+}
+
+/* -------------------------------- nosotros -------------------------------- */

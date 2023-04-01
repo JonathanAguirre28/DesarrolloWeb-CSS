@@ -25,18 +25,50 @@
                     </ul>
                 </nav>
             </header>
-            <main>
-                <div class="main__titulo">
-                    <h1>NUESTROS TRABAJOS</h1>
+            <main class="gridNosotros">
+                <div class="main__encabezado main__titulo">
+                    <h1>NOSOTROS</h1>
                 </div>
-                <div class="main__Imagen">
-                    <img src="../imagenes/iamgen3.jpeg" alt="imgnosotros" class="main__imagennosotros">
-                    <h1>Instalacion de equipos</h1>
-                    <p>Instalamos equipos de todas las frigorias</p>
-                    <input type="submit" value="Ver+" class="M20" >
+                <div class="main__ImagenNos main--card main--flex main--card1">
+                    <img src="../imagenes/instalacion.webp" alt="imgnosotros" class="main__imagennosotros">
+                    <h1 class="main__contenido">Instalacion de equipos</h1>
+                    <p class="main__contenido">Instalamos equipos de todas las frigorias</p>
+                    <input type="submit" value="Ver Mas" class="M20 main__booton" >
                 </div>
-
+                <div class="main__ImagenNos main--card main--flex main--card2">
+                    <img src="../imagenes/airesimagen.jpg" alt="imgnosotros" class="main__imagennosotros">
+                    <h1 class="main__contenido">Reparaciones de equipos</h1>
+                    <p class="main__contenido">Instalamos equipos de todas las frigorias</p>
+                    <input type="submit" value="Ver Mas" class="M20 main__booton" >
+                </div>
+                <div class="main__ImagenNos main--card main--flex main--card3">
+                    <img src="../imagenes/airesimg.webp" alt="imgnosotros" class="main__imagennosotros">
+                    <h1 class="main__contenido">Traslados de equipos</h1>
+                    <p class="main__contenido">Instalamos equipos de todas las frigorias</p>
+                    <input type="submit" value="Ver Mas" class="M20 main__booton" >
+                </div>
+                <div class="main__ImagenNos main--card main--flex main--card4">
+                    <img src="../imagenes/cargadegas.jpg" alt="imgnosotros" class="main__imagennosotros">
+                    <h1 class="main__contenido">Carga de gas y limpieza</h1>
+                    <p class="main__contenido">Instalamos equipos de todas las frigorias</p>
+                    <input type="submit" value="Ver Mas" class="M20 main__booton" >
+                </div>
             </main>
-    
+            <footer class="footer__grid">
+                <div class="footer__logo">
+                    <img src="../imagenes/icono.jpg" alt="ImgFoo" class="footer__Imagen">
+                </div>
+                <div class="footer__titulorrss">
+                    <a href="https://www.instagram.com/aireacondicionado_aguirre/" target="_blank"><img src="data:image/png;base64,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"/></a>
+                 
+                </div>
+                <div class="footer__TituloContacto">
+                    <a href="https://wa.me/01125592688" target="_blank"><img src="data:image/png;base64,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" class="footer__ImgWsp"/>
+                    </a>
+                </div>
+            </footer>
+
+
+        </div>
 </body>
 </html>
