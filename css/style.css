@@ -374,4 +374,13 @@ h3{
     .main__ImagenNos{
         margin: 10px;
     }
+
+    .main__gridContacto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__ImgContacto{
+        display: none;    
+    }
 }
