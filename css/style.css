@@ -326,6 +326,12 @@ h1 {
     .main__ParrafoDer {
         padding: 10px;
     }
-}
+    .gridNosotros{
+    display: flex;
+    flex-direction:column;
+    }
 
-/* -------------------------------- nosotros -------------------------------- */
+    .main__ImagenNos{
+        margin: 10px;
+    }
+}
