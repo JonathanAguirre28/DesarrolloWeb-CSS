@@ -80,24 +80,21 @@ h3 {
 }
 
 .footer__titulorrss:hover {
-    font-size: 30px;
     background-color: rgb(1, 12, 3);
     padding: 4px;
     border-radius: 30px;
 }
 
 .footer__TituloContacto:hover {
-    font-size: 30px;
-    background-color: rgb(1, 12, 3);
+    background-color: rgb(255, 255, 255);
     padding: 4px;
     border-radius: 50px;
 }
 
 
 .footer__ImgWsp {
-    width: 100px;
+    width: 80px;
     height: auto;
-    border-radius: 50px;
 }
 
 .footer__TituloContacto {
