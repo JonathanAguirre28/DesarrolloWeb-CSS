@@ -55,7 +55,7 @@ li {
 .main__Imagen2 {
     width: 100%;
     height: auto;
-     box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
 }
@@ -336,9 +336,28 @@ h3 {
         grid-area: main__contacto;
     }
 
+    /* ------------------------------ gridContacto ------------------------------ */
+
+    .main__gridProducto{
+        display: grid;
+        grid-template-areas:
+            "main__parrafoProducto main__parrafoProducto"
+            "main__ImagenProducto main__ImagenProducto";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto;
+    }
+
+    .main__parrafoProducto {
+        grid-area: main__parrafoProducto;
+    }
+
+    .main__ImagenProducto {
+        grid-area: main__ImagenProducto;
+    }
 }
 
-/* ------------------------------ gridContacto ------------------------------ */
+/* ------------------------------ gridProducto ------------------------------ */
+
 
 
 
