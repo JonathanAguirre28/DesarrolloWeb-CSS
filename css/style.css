@@ -55,6 +55,9 @@ li {
 .main__Imagen2 {
     width: 100%;
     height: auto;
+     box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
 }
 
 .footer__grid {
@@ -64,12 +67,13 @@ li {
     flex-direction: row
 }
 
-.main__titulo{
+.main__titulo {
     display: flex;
     justify-content: center;
 }
 
-a,h3 {
+a,
+h3 {
     font-size: 22px;
     color: azure;
 }
@@ -113,8 +117,8 @@ h1 {
     color: rgb(1, 59, 26);
 }
 
-h3{
-   color: black;
+h3 {
+    color: black;
 }
 
 .M20 {
@@ -124,13 +128,16 @@ h3{
 .main__imagennosotros {
     width: 200px;
     height: auto;
+    box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
 }
 
 .main__ImagenNos {
     display: flex;
     border-radius: 20px;
     align-items: center;
-    background-color:  rgb(232, 232, 232);
+    background-color: rgb(232, 232, 232);
     padding: 20px;
 }
 
@@ -155,48 +162,55 @@ h3{
 }
 
 .gridNosotros {
-    background-color:  rgb(232, 232, 232);
+    background-color: rgb(232, 232, 232);
     column-gap: 20px;
     padding: 20px;
 }
-.main__booton{
-    border-radius:5px;
+
+.main__booton {
+    border-radius: 5px;
     font-size: 20px;
     background-color: rgb(186, 133, 133);
     transition: all .5s;
     width: 100px;
 }
-.main__booton:hover{
+
+.main__booton:hover {
     background-color: brown;
     font-size: 25px;
 }
 
-.main__form{
+.main__form {
     display: flex;
     flex-direction: column;
     padding: 20px;
     margin: 20px;
 }
 
-.main__contacto{
+.main__contacto {
     padding: 20px;
     margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.main__gridContacto{
-    background-color:  rgb(232, 232, 232);
+
+.main__gridContacto {
+    background-color: rgb(232, 232, 232);
 }
 
-.main__input{
+.main__input {
     height: 40px;
 }
 
-.main__ImgContacto{
+.main__ImgContacto {
     width: 400px;
     height: auto;
+    box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
 }
+
 /* --------------------------------- DESKTOP -------------------------------- */
 @media screen and (min-width: 1024px) {
     .grid {
@@ -298,25 +312,35 @@ h3{
         grid-area: main--card4;
     }
 
-    
+
     /* ------------------------------ gridNosotros ------------------------------ */
-    
-    .main__gridContacto{
+
+    .main__gridContacto {
         display: grid;
-        grid-template-areas: 
-        "main__tituloContacto main__tituloContacto"
-        "main__form main__contacto";
+        grid-template-areas:
+            "main__tituloContacto main__tituloContacto"
+            "main__form main__contacto";
         grid-template-columns: 50% 50%;
-        grid-template-rows: auto auto;  
+        grid-template-rows: auto auto;
     }
-    .main__tituloContacto{grid-area: main__tituloContacto;}
-    .main__form{grid-area: main__form;}
-    .main__contacto{grid-area: main__contacto;}
+
+    .main__tituloContacto {
+        grid-area: main__tituloContacto;
+    }
+
+    .main__form {
+        grid-area: main__form;
+    }
+
+    .main__contacto {
+        grid-area: main__contacto;
+    }
 
 }
-    /* ------------------------------ gridContacto ------------------------------ */
-    
-    
+
+/* ------------------------------ gridContacto ------------------------------ */
+
+
 
 /* --------------------------------- MOBILE --------------------------------- */
 @media screen and (max-width: 768px) {
@@ -366,21 +390,22 @@ h3{
     .main__ParrafoDer {
         padding: 10px;
     }
-    .gridNosotros{
-    display: flex;
-    flex-direction:column;
-    }
 
-    .main__ImagenNos{
-        margin: 10px;
-    }
-
-    .main__gridContacto{
+    .gridNosotros {
         display: flex;
         flex-direction: column;
     }
 
-    .main__ImgContacto{
-        display: none;    
+    .main__ImagenNos {
+        margin: 10px;
+    }
+
+    .main__gridContacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__ImgContacto {
+        display: none;
     }
 }
