@@ -47,10 +47,6 @@ li {
     height: auto;
 }
 
-.Main__titulo {
-    display: flex;
-    justify-content: center;
-}
 
 .main__Imagen2 {
     width: 100%;
@@ -310,6 +306,10 @@ span {
     border: 1px solid #97d848;
 }
 
+.main__gridProducto{
+    background-color: rgb(232, 232, 232);
+}
+
 
 /* --------------------------------- DESKTOP -------------------------------- */
 @media screen and (min-width: 1024px) {
@@ -377,7 +377,7 @@ span {
 
     .main__ParrafoIzq,
     .main__ParrafoDer {
-        font-size: 20px;
+        font-size: 25px;
     }
 
 
@@ -462,11 +462,14 @@ span {
     .main__gridProducto {
         display: grid;
         grid-template-areas:
-            "main__parrafoProducto main__parrafoProducto"
-            "main__ImagenProducto main__ImagenProducto";
+            "main__tituloProducto main__tituloProducto"
+            "main__parrafoProducto main__ImagenProducto";
         grid-template-columns: 50% 50%;
         grid-template-rows: auto auto;
     }
+
+    .main__tituloProducto{
+        grid-area: main__tituloProducto;}
 
     .main__parrafoProducto {
         grid-area: main__parrafoProducto;
@@ -475,6 +478,26 @@ span {
     .main__ImagenProducto {
         grid-area: main__ImagenProducto;
     }
+
+    .main__parrafoProducto{
+       padding: 20px;
+       margin: 20px;    
+       font-size: 25px;    
+    }
+
+    .main__ImgContacto{
+        width: 700px;
+        height: 90%;
+        margin: 30px 30px 30px;
+    }
+
+    .main__contactoParrafo{
+        font-size: 25px;
+    }
+
+
+
+
 }
 
 /* ------------------------------ gridProducto ------------------------------ */
@@ -577,5 +600,12 @@ span {
 
     button {
         width: 300px;
+    }
+
+    .main__parrafoProducto{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(1, 59, 26);
+        margin: 10px;
+        padding: 5px;
     }
 }
