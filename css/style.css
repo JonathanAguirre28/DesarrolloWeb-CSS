@@ -146,7 +146,7 @@ h3 {
     flex-direction: column;
     border-radius: 20px;
     justify-content: space-between;
-
+    height: 500px;
 }
 
 .main--flex {
@@ -204,12 +204,112 @@ h3 {
 }
 
 .main__ImgContacto {
-    width: 400px;
+    width: 700px;
     height: auto;
     box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
 }
+
+
+.main__form {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgb(173, 163, 163);
+    padding-left: 30px;
+}
+
+
+input {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #857d83;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+textarea {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #9c929a;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+label {
+    display: block;
+    float: center;
+}
+
+
+button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #8a8087;
+    border-color: #7a6f78;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+
+button p {
+    color: #fff;
+}
+
+
+span {
+    color: #81697c;
+}
+
+
+.aviso {
+    color: #0e0e0e;
+}
+
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+}
+
+
+.main__formulario input:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+
+.main__formulario textarea:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
 
 /* --------------------------------- DESKTOP -------------------------------- */
 @media screen and (min-width: 1024px) {
@@ -312,6 +412,10 @@ h3 {
         grid-area: main--card4;
     }
 
+    .main--card {
+        padding: 20px;
+        margin: 60px;
+    }
 
     /* ------------------------------ gridNosotros ------------------------------ */
 
@@ -336,9 +440,26 @@ h3 {
         grid-area: main__contacto;
     }
 
+    .main__contacto {
+        margin: 50px;
+
+    }
+
+    .main__contactoParrafo {
+        padding: 20px;
+        margin: 20px;
+        font-size: 25px;
+        color: rgb(1, 59, 26);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+
+    .main__tituloContacto {
+        margin: 20px;
+    }
+
     /* ------------------------------ gridContacto ------------------------------ */
 
-    .main__gridProducto{
+    .main__gridProducto {
         display: grid;
         grid-template-areas:
             "main__parrafoProducto main__parrafoProducto"
@@ -424,7 +545,37 @@ h3 {
         flex-direction: column;
     }
 
-    .main__ImgContacto {
+    .main__ImgContacto,
+    .main__desaparecerP {
         display: none;
+    }
+
+    .main__contactoModificador {
+        font-size: 25px;
+        margin-top: 50px;
+
+    }
+
+    .main--card {
+        height: 500px;
+    }
+
+    .main__form {
+        width: 300px;
+        height: auto;
+        padding-left: 10px;
+        margin: 15px;
+    }
+
+    input {
+        width: 300px;
+    }
+
+    textarea {
+        width: 300px;
+    }
+
+    button {
+        width: 300px;
     }
 }

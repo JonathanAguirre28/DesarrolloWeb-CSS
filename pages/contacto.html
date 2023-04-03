@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,13 @@
     <title>CONTACTO</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
-        <div class="grid">
-            <header class="header">
-                <div class="header__Logo">
-                    <img src="../imagenes/icono.jpg" alt="ImgLogo" class="header__Imagen">
-                </div>
+    <div class="grid">
+        <header class="header">
+            <div class="header__Logo">
+                <img src="../imagenes/icono.jpg" alt="ImgLogo" class="header__Imagen">
+            </div>
             <nav>
                 <ul class="header__nav">
                     <li><a href="../index.html">INICIO</a></li>
@@ -24,46 +26,109 @@
                 </ul>
             </nav>
         </header>
-            <main class="main__gridContacto">
-                <div class="main__tituloContacto main__titulo">
-                    <h1>CONTACTO</h1>
-                </div>
-                <div class="main__form">
-                    <label for="Nombre">Decime tu nombre:</label>
-                    <input type="text" name="nombre" id="nombre">
-                    <label for="apellido">Decime tu apellido:</label>
-                    <input type="text" apellido="apellido" id="apellido">
-                    <label for="celular">Decime tu numero de celular</label>
-                    <input type="number" name="celular" id="celular">
-                    <label for="email">Decime tu mail</label>
-                    <input type="email" name="mail" id="mail">
-                    <label for="comentarios">Decime tus comentarios</label>
-                    <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
-                    <input type="submit" value="Enviar" class="main__input">
-                </div>
-                <div class="main__contacto">
-                    <h2>Horarios de atencion:</h2>
-                    <h3>Lunes a viernes de 09:00 a 18:00 horas.</h3>
-                    <h2>Trabajamos en todo lo que es zona sur:</h2>
-                    <h3>Almirante Brown, Lomas de Zamora, Florencio varela, Quilmes, Etc.</h3>
-                    <img src="../imagenes/imagenmain.jpg" alt="Imgcontacto" class="main__ImgContacto">
-                </div>
-            </main>
-            <footer class="footer__grid">
-                <div class="footer__logo">
-                    <img src="../imagenes/icono.jpg" alt="ImgFoo" class="footer__Imagen">
-                </div>
-                <div class="footer__titulorrss">
-                    <a href="https://www.instagram.com/aireacondicionado_aguirre/" target="_blank"><img
-                            src="data:image/png;base64,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" /></a>
+        <main class="main__gridContacto">
+            <div class="main__tituloContacto main__titulo">
+                <h1 class="main__contactoModificador">CONTACTO</h1>
+            </div>
+            <div class="main__form">
 
+                <div class="main__formulario">
+                    <h1>Formulario de contacto</h1>
+                    <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+
+
+                    <form action="submeter-formulario.php" method="post">
+
+
+                        <p>
+                            <label for="nombre" class="colocar_nombre">Nombre
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                                placeholder="Escribe tu nombre">
+                        </p>
+
+                        <p>
+                            <label for="email" class="colocar_email">Email
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="email" name="introducir_email" id="email" required="obligatorio"
+                                placeholder="Escribe tu Email">
+                        </p>
+
+                        <p>
+                            <label for="telefone" class="colocar_telefono">Teléfono
+                            </label>
+                            <input type="tel" name="introducir_telefono" id="telefono"
+                                placeholder="Escribe tu teléfono">
+                        </p>
+
+                        <p>
+                            <label for="website" class="colocar_website">Sitio web
+                            </label>
+                            <input type="url" name="introducir_website" id="website"
+                                placeholder="Escribe la URL de tu web">
+                        </p>
+
+                        <p>
+                            <label for="asunto" class="colocar_asunto">Asunto
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio"
+                                placeholder="Escribe un asunto">
+                        </p>
+
+                        <p>
+                            <label for="mensaje" class="colocar_mensaje">Mensaje
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"
+                                required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
+                        </p>
+
+                        <button type="submit" name="enviar_formulario" id="enviar">
+                            <p>Enviar</p>
+                        </button>
+
+                        <p class="aviso">
+                            <span class="obligatorio"> * </span>los campos son obligatorios.
+                        </p>
+
+                    </form>
                 </div>
-                <div class="footer__TituloContacto">
-                    <a href="https://wa.me/01125592688" target="_blank"><img src="../imagenes/icono de wsp.png" class="footer__ImgWsp"/>
-                    </a>
-                </div>
-            </footer>
+            </div>
+            <div class="main__contacto main__contactoParrafo">
+                <p class="main__desaparecerP">Horarios de atencion:</p>
+                <p class="main__desaparecerP">Lunes a viernes de 09:00 a 18:00 horas.</p>
+                <img src="../imagenes/imagenmain.jpg" alt="Imgcontacto" class="main__ImgContacto">
+                <p class="main__contactoParrafo"> Bienvenido al sitio web líder en soluciones de climatización para el
+                    hogar y la oficina. En Aires
+                    acondicionados Aguirre, nos dedicamos a brindar los mejores productos y servicios en el mercado de
+                    aires
+                    acondicionados, para que disfrutes de un ambiente fresco y confortable en cualquier momento del día.
+                    Nos enorgullece ofrecer una amplia variedad de opciones de climatización, desde aires acondicionados
+                    de ventana hasta sistemas centrales de alta eficiencia energética, para adaptarse a cualquier
+                    presupuesto y necesidad. Además, contamos con las marcas más reconocidas en el mercado, lo que
+                    garantiza la calidad y durabilidad de nuestros productos.</p>
+            </div>
+        </main>
+        <footer class="footer__grid">
+            <div class="footer__logo">
+                <img src="../imagenes/icono.jpg" alt="ImgFoo" class="footer__Imagen">
+            </div>
+            <div class="footer__titulorrss">
+                <a href="https://www.instagram.com/aireacondicionado_aguirre/" target="_blank"><img
+                        src="data:image/png;base64,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" /></a>
+
+            </div>
+            <div class="footer__TituloContacto">
+                <a href="https://wa.me/01125592688" target="_blank"><img src="../imagenes/icono de wsp.png"
+                        class="footer__ImgWsp" />
+                </a>
+            </div>
+        </footer>
     </div>
-    
+
 </body>
+
 </html>
