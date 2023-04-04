@@ -625,6 +625,7 @@ span {
     .main__gridContacto {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .main__ImgContacto,
