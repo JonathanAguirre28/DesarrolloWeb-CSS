@@ -1,0 +1,693 @@
+/* --------------------------------- General -------------------------------- */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.footer__Imagen,
+.header__Imagen {
+    width: 100px;
+    height: 100x;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 20px;
+    margin: 20px;
+}
+
+.header {
+    background-color: rgb(87, 154, 255);
+    display: flex;
+    justify-content: space-between;
+    height: 96px;
+    align-items: center;
+}
+
+.header__nav li a:hover {
+    font-size: 30px;
+    background-color: black;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+
+
+.main__Imagen {
+    width: 100%;
+    height: auto;
+}
+
+
+.main__Imagen2 {
+    width: 100%;
+    height: auto;
+    box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+}
+
+.footer__grid {
+    background-color: rgb(87, 154, 255);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row
+}
+
+.main__titulo {
+    display: flex;
+    justify-content: center;
+}
+
+a,
+h3 {
+    font-size: 22px;
+    color: azure;
+}
+
+.footer__titulorrss {
+    transition: all .5s;
+}
+
+.footer__titulorrss:hover {
+    background-color: rgb(1, 12, 3);
+    padding: 4px;
+    border-radius: 30px;
+}
+
+.footer__TituloContacto:hover {
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 50px;
+}
+
+
+.footer__ImgWsp {
+    width: 80px;
+    height: auto;
+}
+
+.footer__TituloContacto {
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+    transition: all .5s;
+}
+
+.gridMain {
+    background-color: rgb(232, 232, 232);
+}
+
+p,
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(1, 59, 26);
+}
+
+h3 {
+    color: black;
+}
+
+.M20 {
+    margin: 20px;
+}
+
+.main__imagennosotros {
+    width: 200px;
+    height: auto;
+    box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+     margin: 20px 0 0 0;
+}
+
+.main__ImagenNos {
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    background-color: rgb(232, 232, 232);
+    padding: 20px;
+}
+
+.main--card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: space-between;;
+}
+
+.main--flex {
+    border-radius: 20px;
+    background-color: rgb(173, 163, 163);
+}
+
+.main__contenido {
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.gridNosotros {
+    background-color: rgb(232, 232, 232);
+    column-gap: 20px;
+    padding: 20px;
+}
+
+.main__booton {
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(186, 133, 133);
+    transition: all .5s;
+    width: 100px;
+}
+
+.main__booton:hover {
+    background-color: brown;
+    font-size: 25px;
+}
+
+.main__form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+
+.main__contacto {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__gridContacto {
+    background-color: rgb(232, 232, 232);
+}
+
+.main__input {
+    height: 40px;
+}
+
+.main__ImgContacto {
+    width: 700px;
+    height: auto;
+    box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+}
+
+
+.main__form {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgb(173, 163, 163);
+    padding-left: 30px;
+}
+
+
+input {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #857d83;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+textarea {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #9c929a;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+label {
+    display: block;
+    float: center;
+}
+
+
+button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #8a8087;
+    border-color: #7a6f78;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+
+button p {
+    color: #fff;
+}
+
+
+span {
+    color: #81697c;
+}
+
+
+.aviso {
+    color: #0e0e0e;
+}
+
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+}
+
+
+.main__formulario input:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+
+.main__formulario textarea:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+.main__gridProducto {
+    background-color: rgb(232, 232, 232);
+}
+
+
+/* --------------------------------- Desktop -------------------------------- */
+@media screen and (min-width: 1024px) {
+    .grid {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "main"
+            "footer";
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+    }
+
+    .Header {
+        grid-area: header;
+    }
+
+    .main {
+        grid-area: main;
+    }
+
+    .footer {
+        grid-area: footer;
+    }
+
+    .gridMain {
+        display: grid;
+        grid-template-areas:
+            "main__Img main__Img main__Img"
+            "main__titulo main__titulo main__titulo"
+            "main__ParrafoIzq main__ImagenParrafo main__ParrafoDer";
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 33% 34% 33%;
+    }
+
+    .main__Img {
+        grid-area: main__Img;
+    }
+
+    .main__titulo {
+        grid-area: main__titulo;
+    }
+
+    .main__ParrafoIzq {
+        grid-area: main__ParrafoIzq;
+    }
+
+    .main__ImagenParrafo {
+        grid-area: main__ImagenParrafo;
+    }
+
+    .main__ParrafoDer {
+        grid-area: main__ParrafoDer;
+    }
+
+    .main__modificador {
+        font-size: 30px;
+        margin: 40px;
+    }
+
+    .header__nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main__ParrafoIzq,
+    .main__ParrafoDer {
+        font-size: 25px;
+    }
+
+
+    /* -------------------------------- gridIndex ------------------------------- */
+
+    .gridNosotros {
+        display: grid;
+        grid-template-areas:
+            "main__encabezado main__encabezado main__encabezado main__encabezado"
+            "main--card1 main--card2 main--card3 main--card4";
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
+    }
+
+    .main__encabezado {
+        grid-area: main__encabezado;
+    }
+
+    .main--card1 {
+        grid-area: main--card1;
+    }
+
+    .main--card2 {
+        grid-area: main--card2;
+    }
+
+    .main--card3 {
+        grid-area: main--card3;
+    }
+
+    .main--card4 {
+        grid-area: main--card4;
+    }
+
+    .main--card {
+        padding: 0;
+        margin: 20px 0;
+    }
+
+    /* ------------------------------ gridNosotros ------------------------------ */
+
+    .main__gridContacto {
+        display: grid;
+        grid-template-areas:
+            "main__tituloContacto main__tituloContacto"
+            "main__form main__contacto";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto;
+    }
+
+    .main__tituloContacto {
+        grid-area: main__tituloContacto;
+    }
+
+    .main__form {
+        grid-area: main__form;
+    }
+
+    .main__contacto {
+        grid-area: main__contacto;
+    }
+
+    .main__contacto {
+        margin: 50px;
+
+    }
+
+    .main__contactoParrafo {
+        padding: 20px;
+        margin: 20px;
+        font-size: 25px;
+        color: rgb(1, 59, 26);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+
+    .main__tituloContacto {
+        margin: 20px;
+    }
+
+    /* ------------------------------ gridContacto ------------------------------ */
+
+    .main__gridProducto {
+        display: grid;
+        grid-template-areas:
+            "main__tituloProducto main__tituloProducto"
+            "main__parrafoProducto main__ImagenProducto";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto 700px;
+    }
+
+    .main__tituloProducto {
+        grid-area: main__tituloProducto;
+    }
+
+    .main__parrafoProducto {
+        grid-area: main__parrafoProducto;
+    }
+
+    .main__ImagenProducto {
+        grid-area: main__ImagenProducto;
+    }
+
+    .main__parrafoProducto {
+        padding: 20px;
+        margin: 20px;
+        font-size: 25px;
+    }
+
+    .main__ImgContacto {
+        width: 550px;
+        height: 80%;
+        margin: 30px 30px 30px;
+    }
+
+    .main__contactoParrafo {
+        font-size: 25px;
+    }
+
+    .main__tituloProducto {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    /* ------------------------------ gridProducto ------------------------------ */
+
+    .main__gridPresupuesto {
+        display: grid;
+        grid-template-areas:
+            "main__tituloPresupuesto main__tituloPresupuestoo"
+            "main__listaPresupuesto main__imagenPresupuesto";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto 700px;
+    }
+
+    .main__tituloPresupuesto {
+        grid-area: main__tituloPresupuesto;
+    }
+
+    .main__listaPresupuesto {
+        grid-area: main__listaPresupuesto;
+    }
+
+    .main__imagenPresupuesto {
+        grid-area: main__imagenPresupuesto;
+    }
+
+    .main__imagenPresupuesto {
+        padding: 20px;
+        margin: 20px; 
+    }
+
+    .main__listaPresupuesto {
+        padding: 20px;
+        margin: 50px;
+    }
+
+    .main__imagenPresupuesto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main__gridPresupuesto {
+        background-color: rgb(232, 232, 232);
+    }
+
+    .main__tituloPresupuesto {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-top: 40px;
+    }
+
+    .main__iamgenPresupuesto2{
+        width: 600PX;
+        height: auto;
+        padding-right: 30px;
+    }
+
+}
+
+/* ----------------------------- gridPresupuesto ---------------------------- */
+
+
+/* --------------------------------- MOBILE --------------------------------- */
+@media screen and (max-width: 768px) {
+
+    .header__nav,
+    .footer__grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+
+    li {
+        padding: 2px;
+        margin: 2px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .footer__ImgWsp {
+        width: 50px;
+        height: auto;
+        border-radius: 50px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    a {
+        font-size: 18px;
+    }
+
+    .main__titulo {
+        margin: 20px;
+    }
+
+    .main__ParrafoIzq,
+    .main__ParrafoDer {
+        padding: 10px;
+    }
+
+    .gridNosotros {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__ImagenNos {
+        margin: 10px;
+    }
+
+    .main__gridContacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__ImgContacto,
+    .main__desaparecerP {
+        display: none;
+    }
+
+    .main__contactoModificador {
+        font-size: 25px;
+        margin-top: 50px;
+
+    }
+
+    .main__form {
+        width: 300px;
+        height: auto;
+        padding-left: 10px;
+        margin: 15px;
+    }
+
+    input {
+        width: 300px;
+    }
+
+    textarea {
+        width: 300px;
+    }
+
+    button {
+        width: 300px;
+    }
+
+    .main__gridPresupuesto {
+        background-color: rgb(232, 232, 232);
+    }
+
+    .main__parrafoProducto {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(1, 59, 26);
+        padding: 5px;
+    }
+
+    .main__tituloProducto {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main__iamgenPresupuesto2 {
+        width: 300px;
+        height: auto;
+        margin: 25px;
+    }
+
+    .main__listaPresupuesto {
+        margin: 20px;
+    }
+
+    .main__tituloPresupuesto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+}
