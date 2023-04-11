@@ -1,17 +1,19 @@
 @import "variables";
 
 .main__Imagen {
-    width: $full-width;
+    width: 100%;
     height: auto;
 }
 
 
 .main__Imagen2 {
-    width: $full-width;
+    width: 100%;
     height: auto;
     box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+    margin: 20px;
+    
 }
 
 .main__titulo {
