@@ -1,4 +1,4 @@
-/* --------------------------------- GENERAL -------------------------------- */
+/* --------------------------------- General -------------------------------- */
 * {
     padding: 0;
     margin: 0;
@@ -311,7 +311,7 @@ span {
 }
 
 
-/* --------------------------------- DESKTOP -------------------------------- */
+/* --------------------------------- Desktop -------------------------------- */
 @media screen and (min-width: 1024px) {
     .grid {
         display: grid;
@@ -330,10 +330,12 @@ span {
     .main {
         grid-area: main;
     }
-
+    
     .footer {
         grid-area: footer;
     }
+    
+    /* -------------------------------- GridIndex ------------------------------- */
 
     .gridMain {
         display: grid;
@@ -379,9 +381,10 @@ span {
     .main__ParrafoDer {
         font-size: 25px;
     }
-
-
-    /* -------------------------------- gridIndex ------------------------------- */
+    
+    
+    
+        /* ------------------------------ GridNosotros ------------------------------ */
 
     .gridNosotros {
         display: grid;
@@ -407,17 +410,17 @@ span {
     .main--card3 {
         grid-area: main--card3;
     }
-
+    
     .main--card4 {
         grid-area: main--card4;
     }
-
+    
     .main--card {
         padding: 0;
         margin: 20px 0;
     }
-
-    /* ------------------------------ gridNosotros ------------------------------ */
+    
+    /* ------------------------------ GridContacto ------------------------------ */
 
     .main__gridContacto {
         display: grid;
@@ -452,63 +455,63 @@ span {
         color: rgb(1, 59, 26);
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     }
-
+    
     .main__tituloContacto {
         margin: 20px;
     }
-
-    /* ------------------------------ gridContacto ------------------------------ */
-
+    
+    /* ------------------------------ GridProducto ------------------------------ */
+    
     .main__gridProducto {
         display: grid;
         grid-template-areas:
-            "main__tituloProducto main__tituloProducto"
-            "main__parrafoProducto main__ImagenProducto";
+        "main__tituloProducto main__tituloProducto"
+        "main__parrafoProducto main__ImagenProducto";
         grid-template-columns: 50% 50%;
         grid-template-rows: auto 700px;
     }
-
+    
     .main__tituloProducto {
         grid-area: main__tituloProducto;
     }
-
+    
     .main__parrafoProducto {
         grid-area: main__parrafoProducto;
     }
-
+    
     .main__ImagenProducto {
         grid-area: main__ImagenProducto;
     }
-
+    
     .main__parrafoProducto {
         padding: 20px;
         margin: 20px;
         font-size: 25px;
     }
-
+    
     .main__ImgContacto {
         width: 550px;
         height: 80%;
         margin: 30px 30px 30px;
     }
-
+    
     .main__contactoParrafo {
         font-size: 25px;
     }
-
+    
     .main__tituloProducto {
         display: flex;
         justify-content: center;
         margin-top: 20px;
     }
-
-    /* ------------------------------ gridProducto ------------------------------ */
-
+    
+    /* ----------------------------- GridPresupuesto ---------------------------- */
+    
     .main__gridPresupuesto {
         display: grid;
         grid-template-areas:
-            "main__tituloPresupuesto main__tituloPresupuestoo"
-            "main__listaPresupuesto main__imagenPresupuesto";
+        "main__tituloPresupuesto main__tituloPresupuestoo"
+        "main__listaPresupuesto main__imagenPresupuesto";
         grid-template-columns: 50% 50%;
         grid-template-rows: auto 700px;
     }
@@ -561,10 +564,9 @@ span {
 
 }
 
-/* ----------------------------- gridPresupuesto ---------------------------- */
 
 
-/* --------------------------------- MOBILE --------------------------------- */
+/* --------------------------------- Mobile --------------------------------- */
 @media screen and (max-width: 768px) {
 
     .header__nav,
