@@ -1,0 +1,42 @@
+@import "variables";
+
+.footer__Imagen {
+    width: $full-width;
+    height: $full-height;
+}
+
+
+.footer__grid {
+    background-color: rgb(87, 154, 255);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row
+}
+.footer__titulorrss {
+    transition: all .5s;
+}
+
+.footer__titulorrss:hover {
+    background-color: rgb(1, 12, 3);
+    padding: 4px;
+    border-radius: 30px;
+}
+
+.footer__TituloContacto:hover {
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 50px;
+}
+
+
+.footer__ImgWsp {
+    width: 80px;
+    height: auto;
+}
+
+.footer__TituloContacto {
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+    transition: all .5s;
+}

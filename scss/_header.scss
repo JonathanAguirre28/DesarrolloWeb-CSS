@@ -1,0 +1,36 @@
+@import "variables";
+
+.header__Imagen {
+    width: $full-width;
+    height: $full-height;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 20px;
+    margin: 20px;
+}
+
+.header {
+    background-color: rgb(87, 154, 255);
+    display: flex;
+    justify-content: space-between;
+    height: 96px;
+    align-items: center;
+}
+
+.header__nav li a:hover {
+    font-size: 30px;
+    background-color:$black;
+    padding: 4px;
+    border-radius: 10px;
+}

@@ -1,0 +1,111 @@
+@import "variables";
+
+.main__Imagen {
+    width: $full-width;
+    height: auto;
+}
+
+
+.main__Imagen2 {
+    width: $full-width;
+    height: auto;
+    box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+}
+
+.main__titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.main__imagennosotros {
+    width: 200px;
+    height: auto;
+    box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+     margin: 20px 0 0 0;
+}
+
+.main__ImagenNos {
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    background-color: rgb(232, 232, 232);
+    padding: 20px;
+}
+
+.main--card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: space-between;;
+}
+
+.main--flex {
+    border-radius: 20px;
+    background-color: rgb(173, 163, 163);
+}
+
+.main__contenido {
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.main__booton {
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(186, 133, 133);
+    transition: all .5s;
+    width: 100px;
+}
+
+.main__booton:hover {
+    background-color: brown;
+    font-size: 25px;
+}
+
+.main__form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+
+.main__contacto {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__gridContacto {
+    background-color: rgb(232, 232, 232);
+}
+
+.main__input {
+    height: 40px;
+}
+
+.main__ImgContacto {
+    width: 700px;
+    height: auto;
+    box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
+}
+
+
+.main__form {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgb(173, 163, 163);
+    padding-left: 30px;
+}

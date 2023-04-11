@@ -1,0 +1,265 @@
+/* --------------------------------- General -------------------------------- */
+@import "variables";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a,
+h3 {
+    font-size: 22px;
+    color: azure;
+}
+
+
+
+.gridMain {
+    background-color: rgb(232, 232, 232);
+}
+
+p,
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(1, 59, 26);
+}
+
+h3 {
+    color: $black;
+}
+
+.M20 {
+    margin: 20px;
+}
+
+
+.gridNosotros {
+    background-color: rgb(232, 232, 232);
+    column-gap: 20px;
+    padding: 20px;
+}
+
+
+
+
+input {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #857d83;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+textarea {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #9c929a;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+label {
+    display: block;
+    float: center;
+}
+
+
+button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #8a8087;
+    border-color: #7a6f78;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+
+button p {
+    color: #fff;
+}
+
+
+span {
+    color: #81697c;
+}
+
+
+.aviso {
+    color: #0e0e0e;
+}
+
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+}
+
+
+.main__formulario input:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+
+.main__formulario textarea:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+.main__gridProducto {
+    background-color: rgb(232, 232, 232);
+}
+
+
+
+
+
+/* --------------------------------- MOBILE --------------------------------- */
+@media screen and (max-width: 768px) {
+
+    .header__nav,
+    .footer__grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+
+    li {
+        padding: 2px;
+        margin: 2px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .footer__ImgWsp {
+        width: 50px;
+        height: auto;
+        border-radius: 50px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    a {
+        font-size: 18px;
+    }
+
+    .main__titulo {
+        margin: 20px;
+    }
+
+    .main__ParrafoIzq,
+    .main__ParrafoDer {
+        padding: 10px;
+    }
+
+    .gridNosotros {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__ImagenNos {
+        margin: 10px;
+    }
+
+    .main__gridContacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__ImgContacto,
+    .main__desaparecerP {
+        display: none;
+    }
+
+    .main__contactoModificador {
+        font-size: 25px;
+        margin-top: 50px;
+
+    }
+
+    .main__form {
+        width: 300px;
+        height: auto;
+        padding-left: 10px;
+        margin: 15px;
+    }
+
+    input {
+        width: 300px;
+    }
+
+    textarea {
+        width: 300px;
+    }
+
+    button {
+        width: 300px;
+    }
+
+    .main__gridPresupuesto {
+        background-color: rgb(232, 232, 232);
+    }
+
+    .main__parrafoProducto {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(1, 59, 26);
+        padding: 5px;
+    }
+
+    .main__tituloProducto {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main__iamgenPresupuesto2 {
+        width: 300px;
+        height: auto;
+        margin: 25px;
+    }
+
+    .main__listaPresupuesto {
+        margin: 20px;
+    }
+
+    .main__tituloPresupuesto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+}
