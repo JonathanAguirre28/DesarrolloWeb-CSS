@@ -1,4 +1,5 @@
 /* --------------------------------- Desktop -------------------------------- */
+
 @media screen and (min-width: 1024px) {
     .grid {
         display: grid;
@@ -20,6 +21,27 @@
     
     .footer {
         grid-area: footer;
+    }
+
+    .header {
+        background-color: rgb(87, 154, 255);
+        display: flex;
+        justify-content: space-between;
+        height: 96px;
+        align-items: center;
+    }
+
+    li {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .main__Imagen2{
+    margin: 20px;
+    }
+
+    a{
+        font-size: 22px;
     }
     
     /* -------------------------------- gridIndex ------------------------------- */
@@ -67,6 +89,10 @@
     .main__ParrafoIzq,
     .main__ParrafoDer {
         font-size: 25px;
+    }
+
+    .main__form {
+        width: 460px;
     }
     
     
@@ -146,6 +172,9 @@
         margin: 20px;
     }
 
+    .main__form {
+        margin: 80px auto;
+    }
     
     /* ------------------------------ gridProducto ------------------------------ */
     .main__gridProducto {
@@ -170,7 +199,6 @@
     }
 
     .main__parrafoProducto {
-        padding: 20px;
         margin: 20px;
         font-size: 25px;
     }

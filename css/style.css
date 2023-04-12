@@ -1,21 +1,7 @@
-@charset "UTF-8";
-/* --------------------------------- Tamaños -------------------------------- */
-/* --------------------------------- colores -------------------------------- */
-/* --------------------------------- General -------------------------------- */ /* --------------------------------- Tamaños -------------------------------- */
-/* --------------------------------- colores -------------------------------- */
+/* --------------------------------- General -------------------------------- */
 * {
   padding: 0;
   margin: 0;
-}
-
-a,
-h3 {
-  font-size: 22px;
-  color: azure;
-}
-
-.gridMain {
-  background-color: rgb(232, 232, 232);
 }
 
 p,
@@ -26,6 +12,7 @@ h1 {
 
 h3 {
   color: black;
+  font-size: 22px;
 }
 
 .M20 {
@@ -128,10 +115,23 @@ span {
     align-items: center;
   }
   .header {
+    background-color: rgb(87, 154, 255);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     height: auto;
+  }
+  a {
+    color: azure;
+    background-color: transparent;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .header__nav li a:hover {
+    font-size: 30px;
+    background-color: black;
+    padding: 4px;
+    border-radius: 10px;
   }
   li {
     padding: 2px;
@@ -146,9 +146,6 @@ span {
     border-radius: 50px;
   }
   h1 {
-    font-size: 18px;
-  }
-  a {
     font-size: 18px;
   }
   .main__titulo {
@@ -175,8 +172,7 @@ span {
     display: none;
   }
   .main__contactoModificador {
-    font-size: 25px;
-    margin-top: 50px;
+    font-size: 18px;
   }
   .main__form {
     width: 300px;
@@ -204,6 +200,7 @@ span {
   .main__tituloProducto {
     display: flex;
     justify-content: center;
+    padding: 20px;
   }
   .main__iamgenPresupuesto2 {
     width: 300px;
@@ -217,10 +214,15 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
+  }
+  input {
+    padding-left: 0;
+  }
+  textarea {
+    padding-left: 0;
   }
 }
-/* --------------------------------- Tamaños -------------------------------- */
-/* --------------------------------- colores -------------------------------- */
 .footer__Imagen {
   width: 100px;
   height: 100px;
@@ -278,6 +280,23 @@ span {
   .footer {
     grid-area: footer;
   }
+  .header {
+    background-color: rgb(87, 154, 255);
+    display: flex;
+    justify-content: space-between;
+    height: 96px;
+    align-items: center;
+  }
+  li {
+    padding: 20px;
+    margin: 20px;
+  }
+  .main__Imagen2 {
+    margin: 20px;
+  }
+  a {
+    font-size: 22px;
+  }
   /* -------------------------------- gridIndex ------------------------------- */
   .gridMain {
     display: grid;
@@ -311,6 +330,9 @@ span {
   .main__ParrafoIzq,
   .main__ParrafoDer {
     font-size: 25px;
+  }
+  .main__form {
+    width: 460px;
   }
   /* ------------------------------ gridNosotros ------------------------------ */
   .gridNosotros {
@@ -367,6 +389,9 @@ span {
   .main__tituloContacto {
     margin: 20px;
   }
+  .main__form {
+    margin: 80px auto;
+  }
   /* ------------------------------ gridProducto ------------------------------ */
   .main__gridProducto {
     display: grid;
@@ -384,7 +409,6 @@ span {
     grid-area: main__ImagenProducto;
   }
   .main__parrafoProducto {
-    padding: 20px;
     margin: 20px;
     font-size: 25px;
   }
@@ -446,33 +470,19 @@ span {
     padding-right: 30px;
   }
 }
-/* --------------------------------- Tamaños -------------------------------- */
-/* --------------------------------- colores -------------------------------- */
 .header__Imagen {
   width: 100px;
   height: 100px;
-}
-
-a {
-  text-decoration: none;
-  transition: all 0.5s;
 }
 
 ul {
   list-style: none;
 }
 
-li {
-  padding: 20px;
-  margin: 20px;
-}
-
-.header {
-  background-color: rgb(87, 154, 255);
-  display: flex;
-  justify-content: space-between;
-  height: 96px;
-  align-items: center;
+a {
+  color: azure;
+  text-decoration: none;
+  transition: all 0.5s;
 }
 
 .header__nav li a:hover {
@@ -482,8 +492,6 @@ li {
   border-radius: 10px;
 }
 
-/* --------------------------------- Tamaños -------------------------------- */
-/* --------------------------------- colores -------------------------------- */
 .main__Imagen {
   width: 100%;
   height: auto;
@@ -495,7 +503,6 @@ li {
   box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
-  margin: 20px;
 }
 
 .main__titulo {
@@ -555,7 +562,7 @@ li {
 .main__form {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 30px;
   margin: 20px;
 }
 
@@ -567,7 +574,7 @@ li {
   align-items: center;
 }
 
-.main__gridContacto {
+.main__gridContacto, .gridMain {
   background-color: rgb(232, 232, 232);
 }
 
@@ -576,7 +583,6 @@ li {
 }
 
 .main__ImgContacto {
-  width: 700px;
   height: auto;
   box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
@@ -584,9 +590,7 @@ li {
 }
 
 .main__form {
-  width: 460px;
   height: auto;
-  margin: 80px auto;
   border-radius: 10px;
   padding-top: 30px;
   padding-bottom: 20px;

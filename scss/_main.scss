@@ -1,5 +1,7 @@
 @import "variables";
 
+
+
 .main__Imagen {
     width: 100%;
     height: auto;
@@ -12,7 +14,6 @@
     box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
-    margin: 20px;
     
 }
 
@@ -72,7 +73,7 @@
 .main__form {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 30px;
     margin: 20px;
 }
 
@@ -84,7 +85,7 @@
     align-items: center;
 }
 
-.main__gridContacto {
+.main__gridContacto, .gridMain {
     background-color: rgb(232, 232, 232);
 }
 
@@ -93,7 +94,6 @@
 }
 
 .main__ImgContacto {
-    width: 700px;
     height: auto;
     box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
@@ -102,9 +102,7 @@
 
 
 .main__form {
-    width: 460px;
     height: auto;
-    margin: 80px auto;
     border-radius: 10px;
     padding-top: 30px;
     padding-bottom: 20px;
