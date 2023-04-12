@@ -8,6 +8,8 @@
     <!-- ---------------------------- link favicon ----------------------------- -->
     <link rel="shortcut icon" href="imagenes/icono.jpg" type="image/x-icon">
     <title>INICIO</title>
+    <!-- ---------------------------- link css aos ----------------------------- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- ------------------------------ link css ------------------------------- -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -16,7 +18,9 @@
     <!-- -------------------------------- Grid --------------------------------- -->
     <div class="grid">
     <!-- ------------------------------- header -------------------------------- -->
-        <header class="header">
+        <header class="header" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
             <div class="header__Logo">
                 <img src="imagenes/icono.jpg" alt="ImgLogo" class="header__Imagen">
             </div>
@@ -35,22 +39,23 @@
             <div class="main__Img">
                 <img src="imagenes/imagenheader1.webp" alt="ImagenMain" class="main__Imagen">
             </div>
-            <div class="main__titulo">
+            <div class="main__titulo" data-aos="zoom-in">
                 <h1>INSTALACIÓN DE AIRES ACONDICIONADOS AGUIRRE</h1>
             </div>
-            <div class="main__ParrafoIzq main__modificador">
+            <div class="main__ParrafoIzq main__modificador" data-aos="zoom-in-up">
                 <p>Somos un equipo de profesionales matriculados. Tenemos mas de 20 años de experiencia en el rubro,
                     nuestro equipo solucionara todas sus necesidades.</p>
             </div>
             <div class="main__ImagenParrafo">
                 <img src="imagenes/imagen5.jpeg" alt="ImagenMain2" class="main__Imagen2">
             </div>
-            <div class="main__ParrafoDer main__modificador">
+            <div class="main__ParrafoDer main__modificador" data-aos="zoom-in-up">
                 <p>Somos una empresa avocada a la instalación de split y aires acondicionados de manera estética y eficiente. Privilegiando la conformidad de nuestros clientes.</p>
             </div>
         </main>
         <!-- ------------------------------- Footer -------------------------------- -->
-        <footer class="footer__grid">
+        <footer class="footer__grid"  data-aos="fade-up"
+        data-aos-duration="3000">
             <div class="footer__logo">
                 <img src="imagenes/icono.jpg" alt="ImgFoo" class="footer__Imagen">
             </div>
@@ -67,6 +72,10 @@
         </footer>
     </div>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>

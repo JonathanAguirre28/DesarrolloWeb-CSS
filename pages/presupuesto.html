@@ -8,6 +8,8 @@
     <!-- ---------------------------- Link favicon ----------------------------- -->
     <link rel="shortcut icon" href="../imagenes/icono.jpg" type="image/x-icon">
     <title>PRESUPUESTO</title>
+    <!-- ---------------------------- link css aos ----------------------------- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- ------------------------------ Link css ------------------------------- -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -16,7 +18,7 @@
     <!-- -------------------------------- Grid --------------------------------- -->
     <div class="grid">
     <!-- ------------------------------- Header -------------------------------- -->
-        <header class="header">
+        <header class="header" data-aos="zoom-out">
             <div class="header__Logo">
                 <img src="../imagenes/icono.jpg" alt="ImgLogo" class="header__Imagen">
             </div>
@@ -31,7 +33,7 @@
             </nav>
         </header>
         <main class="main__gridPresupuesto">
-            <div class="main__tituloPresupuesto">
+            <div class="main__tituloPresupuesto" data-aos="fade-up">
                 <h1>PRESUPUESTOS</h1>
             </div>
             <div class="main__listaPresupuesto">
@@ -51,7 +53,7 @@
 
         </main>
     <!-- ------------------------------- Footer -------------------------------- -->
-        <footer class="footer__grid">
+        <footer class="footer__grid" data-aos="zoom-out">
             <div class="footer__logo">
                 <img src="../imagenes/icono.jpg" alt="ImgFoo" class="footer__Imagen">
             </div>
@@ -67,6 +69,10 @@
             </div>
         </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 

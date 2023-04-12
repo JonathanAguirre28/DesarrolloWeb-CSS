@@ -8,6 +8,8 @@
     <!-- ---------------------------- link favicon ----------------------------- -->
     <link rel="shortcut icon" href="../imagenes/icono.jpg" type="image/x-icon">
     <title>PRODUCTO</title>
+    <!-- ---------------------------- link css aos ----------------------------- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- ------------------------------ link css ------------------------------- -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -16,7 +18,8 @@
     <!-- -------------------------------- Grid --------------------------------- -->
     <div class="grid">
         <!-- ------------------------------- Header -------------------------------- -->
-        <header class="header">
+        <header class="header" data-aos="fade-up"
+        data-aos-duration="3000">
             <div class="header__Logo">
                 <img src="../imagenes/icono.jpg" alt="ImgLogo" class="header__Imagen">
             </div>
@@ -32,7 +35,7 @@
         </header>
         <!-- -------------------------------- main --------------------------------- -->
         <main class="main__gridProducto">
-            <div class="main__tituloProducto">
+            <div class="main__tituloProducto" data-aos="fade-up">
                 <h1>PRODUCTO</h1>
             </div>
             <div class="main__parrafoProducto">
@@ -48,13 +51,15 @@
                     u oficina. Así que no esperes más, ¡contáctanos hoy y empieza a disfrutar de un aire más fresco y
                     confortable en tu espacio!</p>
             </div>
-            <div class="main__ImagenProducto">
+            <div class="main__ImagenProducto" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
                 <img src="../imagenes/reydelclima.jpg" alt="ImgMain" class="main__ImgContacto">
             </div>
 
         </main>
         <!-- ------------------------------- Footer -------------------------------- -->
-        <footer class="footer__grid">
+        <footer class="footer__grid" data-aos="fade-up"
+        data-aos-duration="3000">
             <div class="footer__logo">
                 <img src="../imagenes/icono.jpg" alt="ImgFoo" class="footer__Imagen">
             </div>
@@ -70,6 +75,10 @@
             </div>
         </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 

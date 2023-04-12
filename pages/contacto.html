@@ -8,6 +8,8 @@
     <!-- ---------------------------- link favicon ----------------------------- -->
     <link rel="shortcut icon" href="../imagenes/icono.jpg" type="image/x-icon">
     <title>CONTACTO</title>
+    <!-- ---------------------------- link css aos ----------------------------- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- ------------------------------ link css ------------------------------- -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -16,7 +18,8 @@
     <!-- -------------------------------- Grid --------------------------------- -->
     <div class="grid">
         <!-- ------------------------------- header -------------------------------- -->
-        <header class="header">
+        <header class="header" data-aos="fade-up"
+        data-aos-duration="3000">
             <div class="header__Logo">
                 <img src="../imagenes/icono.jpg" alt="ImgLogo" class="header__Imagen">
             </div>
@@ -32,7 +35,7 @@
         </header>
         <!-- -------------------------------- main --------------------------------- -->
         <main class="main__gridContacto">
-            <div class="main__tituloContacto main__titulo">
+            <div class="main__tituloContacto main__titulo" data-aos="fade-up">
                 <h1 class="main__contactoModificador">CONTACTO</h1>
             </div>
             <div class="main__form">
@@ -105,7 +108,7 @@
             <div class="main__contacto main__contactoParrafo">
                 <p class="main__desaparecerP">Horarios de atencion:</p>
                 <p class="main__desaparecerP">Lunes a viernes de 09:00 a 18:00 horas.</p>
-                <img src="../imagenes/imagenmain.jpg" alt="Imgcontacto" class="main__ImgContacto">
+                <img src="../imagenes/imagenmain.jpg" alt="Imgcontacto" class="main__ImgContacto" data-aos="flip-down">
                 <p class="main__contactoParrafo"> Bienvenido al sitio web líder en soluciones de climatización para el
                     hogar y la oficina. En Instalacion de Aires
                     Acondicionados Aguirre, nos dedicamos a brindar los mejores productos y servicios en el mercado de
@@ -118,7 +121,9 @@
             </div>
         </main>
         <!-- ------------------------------- Footer -------------------------------- -->
-        <footer class="footer__grid">
+        <footer class="footer__grid" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
             <div class="footer__logo">
                 <img src="../imagenes/icono.jpg" alt="ImgFoo" class="footer__Imagen">
             </div>
@@ -134,6 +139,10 @@
             </div>
         </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 
