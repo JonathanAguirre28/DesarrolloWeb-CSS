@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+ul {
+    list-style: none;
+}
+
 p,
 h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -102,21 +106,6 @@ span {
     color: #a8a8a8;
 }
 
-
-.main__formulario input:focus {
-    outline: 0;
-    border: 1px solid #97d848;
-}
-
-
-.main__formulario textarea:focus {
-    outline: 0;
-    border: 1px solid #97d848;
-}
-
-.main__gridProducto {
-    background-color: rgb(232, 232, 232);
-}
 
 
 /* --------------------------------- MOBILE --------------------------------- */

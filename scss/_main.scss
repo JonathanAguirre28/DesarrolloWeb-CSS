@@ -109,3 +109,18 @@
     background-color: rgb(173, 163, 163);
     padding-left: 30px;
 }
+
+.main__formulario input:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+
+.main__formulario textarea:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+.main__gridProducto {
+    background-color: rgb(232, 232, 232);
+}

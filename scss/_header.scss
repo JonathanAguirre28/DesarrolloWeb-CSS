@@ -1,26 +1,26 @@
 @import "variables";
 
-.header__Imagen {
-    width: 100px;
-    height: 100px;
-}
 
-ul {
-    list-style: none;
+.header {
 
-}
+    .header__Imagen {
+        width: 100px;
+        height: 100px;
+    }
 
-a {
-    color: azure;
-    text-decoration: none;
-    transition: all 0.5s;
-}
+    a {
+        color: azure;
+        text-decoration: none;
+        transition: all 0.5s;
+    }
+
+        .header__nav li a:hover {
+            font-size: 30px;
+            background-color: $black;
+            padding: 4px;
+            border-radius: 10px;
 
 
+        }
 
-.header__nav li a:hover {
-    font-size: 30px;
-    background-color:$black;
-    padding: 4px;
-    border-radius: 10px;
 }
