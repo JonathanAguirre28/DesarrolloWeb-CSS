@@ -8,9 +8,10 @@
     <!-- ---------------------------- link favicon ----------------------------- -->
     <link rel="shortcut icon" href="../imagenes/icono.jpg" type="image/x-icon">
     <title>NOSOTROS- AIRES ACONDICIONADOS AGUIRRE</title>
-     <!-- ------------------------------ Etiqueta Meta ------------------------------ -->
-     <meta name="description" content="¡Mantén tu hogar fresco y cómodo todo el año, nuestros tecnicos de aires acondicionados aguirre te lo garantizan!">
-     <meta name= "keywords" content="tecnicos, matriculados, experiencia, confort, garantia">
+    <!-- ------------------------------ Etiqueta Meta ------------------------------ -->
+    <meta name="description"
+        content="¡Mantén tu hogar fresco y cómodo todo el año, nuestros tecnicos de aires acondicionados aguirre te lo garantizan!">
+    <meta name="keywords" content="tecnicos, matriculados, experiencia, confort, garantia">
     <!-- ---------------------------- Etiqueta meta ---------------------------- -->
     <meta name="">
     <!-- ---------------------------- link css aos ----------------------------- -->
@@ -25,12 +26,12 @@
         <!-- -------------------------------- grid --------------------------------- -->
         <div class="grid">
             <!-- ------------------------------- header -------------------------------- -->
-            <header class="header" data-aos="zoom-out">
-                <div class="header__Logo">
+            <header class="header">
+                <div class="header__Logo" data-aos="flip-left">
                     <img src="../imagenes/icono.jpg" alt="ImgLogo" class="header__Imagen">
                 </div>
                 <nav>
-                    <ul class="header__nav">
+                    <ul class="header__nav" data-aos="flip-left">
                         <li><a href="../index.html">INICIO</a></li>
                         <li><a href="nosotros.html">NOSOTROS</a></li>
                         <li><a href="contacto.html">CONTACTO</a></li>
@@ -41,8 +42,7 @@
             </header>
             <!-- -------------------------------- main --------------------------------- -->
             <main class="gridNosotros">
-                <div class="main__encabezado main__titulo" data-aos="fade-up"
-                data-aos-anchor-placement="bottom-center">
+                <div class="main__encabezado main__titulo" data-aos="fade-up" data-aos-anchor-placement="bottom-center">
                     <h1>INSTALACIÓN, DESINSTALACIÓN Y REPARACIÓN DE EQUIPOS SPLIT</h1>
                 </div>
                 <div class="main__ImagenNos main--card main--flex main--card1">
@@ -80,7 +80,7 @@
                 </div>
             </main>
             <!-- ------------------------------- Footer -------------------------------- -->
-            <footer class="footer__grid" >
+            <footer class="footer__grid">
                 <div class="footer__logo">
                     <img src="../imagenes/icono.jpg" alt="ImgFoo" class="footer__Imagen">
                 </div>
@@ -95,13 +95,11 @@
                     </a>
                 </div>
             </footer>
-
-
         </div>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 
 </html>

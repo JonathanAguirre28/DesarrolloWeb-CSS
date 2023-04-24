@@ -181,10 +181,10 @@ span {
     font-size: 18px;
   }
   .main__form {
-    width: 300px;
-    height: auto;
-    padding-left: 10px;
-    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
   }
   input {
     width: 300px;

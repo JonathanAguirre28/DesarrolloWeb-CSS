@@ -8,9 +8,10 @@
     <!-- ---------------------------- link favicon ----------------------------- -->
     <link rel="shortcut icon" href="../imagenes/icono.jpg" type="image/x-icon">
     <title>CONTACTO- AIRES ACONDICIONADOS AGUIRRE</title>
-     <!-- ------------------------------ Etiqueta Meta ------------------------------ -->
-     <meta name="description" content="Contáctanos para obtener servicios de reparación y mantenimiento de aires acondicionados confiables y eficientes">
-     <meta name= "keywords" content="nombre, mail, telefonos, mensajes, sitio web, asuntos, horarios.">
+    <!-- ------------------------------ Etiqueta Meta ------------------------------ -->
+    <meta name="description"
+        content="Contáctanos para obtener servicios de reparación y mantenimiento de aires acondicionados confiables y eficientes">
+    <meta name="keywords" content="nombre, mail, telefonos, mensajes, sitio web, asuntos, horarios.">
     <!-- ---------------------------- link css aos ----------------------------- -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- ------------------------------ link css ------------------------------- -->
@@ -21,12 +22,12 @@
     <!-- -------------------------------- Grid --------------------------------- -->
     <div class="grid">
         <!-- ------------------------------- header -------------------------------- -->
-        <header class="header" data-aos="zoom-out">
-            <div class="header__Logo">
+        <header class="header">
+            <div class="header__Logo" data-aos="flip-left">
                 <img src="../imagenes/icono.jpg" alt="ImgLogo" class="header__Imagen">
             </div>
             <nav>
-                <ul class="header__nav">
+                <ul class="header__nav" data-aos="flip-left">
                     <li><a href="../index.html">INICIO</a></li>
                     <li><a href="nosotros.html">NOSOTROS</a></li>
                     <li><a href="contacto.html">CONTACTO</a></li>
@@ -42,13 +43,12 @@
             </div>
             <div class="main__form">
 
-                <div class="main__formulario" data-aos="fade-up"
-                data-aos-anchor-placement="top-bottom">
+                <div class="main__formulario" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <h1>Formulario de contacto</h1>
                     <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
 
 
-                    <form action="submeter-formulario.php" method="post">
+                    <form action="submeter-formulario.php" method="post" >
 
 
                         <p>
@@ -111,7 +111,8 @@
             <div class="main__contacto main__contactoParrafo">
                 <p class="main__desaparecerP">Horarios de atencion:</p>
                 <p class="main__desaparecerP">Lunes a viernes de 09:00 a 18:00 horas.</p>
-                <img src="../imagenes/imagenContacto.jpg" alt="Imgcontacto" class="main__ImgContacto" data-aos="flip-down">
+                <img src="../imagenes/imagenContacto.jpg" alt="Imgcontacto" class="main__ImgContacto"
+                    data-aos="flip-down">
                 <p class="main__contactoParrafo"> Bienvenido al sitio web líder en soluciones de climatización para el
                     hogar y la oficina. En Instalacion de Aires
                     Acondicionados Aguirre, nos dedicamos a brindar los mejores productos y servicios en el mercado de
@@ -125,7 +126,7 @@
         </main>
         <!-- ------------------------------- Footer -------------------------------- -->
         <footer class="footer__grid">
-            <div class="footer__logo" >
+            <div class="footer__logo">
                 <img src="../imagenes/icono.jpg" alt="ImgFoo" class="footer__Imagen">
             </div>
             <div class="footer__titulorrss">
@@ -143,7 +144,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
 
 </body>
 
