@@ -18,7 +18,7 @@
     .main {
         grid-area: main;
     }
-    
+
     .footer {
         grid-area: footer;
     }
@@ -36,24 +36,31 @@
         margin: 20px;
     }
 
-    .main__Imagen2{
-    margin: 20px;
+    .main__Imagen2 {
+        margin: 20px;
     }
 
-    a{
+    a {
         font-size: 22px;
     }
-    
+
     .footer__grid {
         background-color: rgb(87, 154, 255);
         display: flex;
         justify-content: space-around;
         flex-direction: row
     }
-    
+
+    .footer__ImgWsp {
+        width: 80px;
+        height: auto;
+    }
+
+
+
 
     /* -------------------------------- gridIndex ------------------------------- */
-    
+
     .gridMain {
         display: grid;
         grid-template-areas:
@@ -102,8 +109,8 @@
     .main__form {
         width: 460px;
     }
-    
-    
+
+
     /* ------------------------------ gridNosotros ------------------------------ */
 
     .gridNosotros {
@@ -139,7 +146,7 @@
         padding: 0;
         margin: 20px 0;
     }
-    
+
     /* ------------------------------ gridContacto ------------------------------ */
 
     .main__gridContacto {
@@ -183,7 +190,7 @@
     .main__form {
         margin: 80px auto;
     }
-    
+
     /* ------------------------------ gridProducto ------------------------------ */
     .main__gridProducto {
         display: grid;
@@ -226,7 +233,7 @@
         justify-content: center;
         margin-top: 20px;
     }
-    
+
     /* ----------------------------- gridPresupuesto ---------------------------- */
 
     .main__gridPresupuesto {
@@ -252,7 +259,7 @@
 
     .main__imagenPresupuesto {
         padding: 20px;
-        margin: 20px; 
+        margin: 20px;
     }
 
     .main__listaPresupuesto {
@@ -278,11 +285,10 @@
         margin-top: 40px;
     }
 
-    .main__iamgenPresupuesto2{
+    .main__iamgenPresupuesto2 {
         width: 600PX;
         height: auto;
         padding-right: 30px;
     }
 
 }
-
