@@ -1,4 +1,4 @@
-# Proyecto Final Aguirre
+# Proyecto Final 2 Aguirre
 creamos archivo index.html maquetamos con uso flexbox grid y medias quaris
 le dimos un box shadow a mi imagen main
 hover a la nav
