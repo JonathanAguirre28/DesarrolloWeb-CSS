@@ -10,6 +10,12 @@ creamos carpeta pages con 4 archivos agregandole todo lo ante dicho.
 agregamos seo
 agreagamos box shadow a todas las imagenes
 creamos una rama nueva NuevaPagina
+ link github pages 
+https://jonathanaguirre28.github.io/ProyectoFinal-2-Aguirre/
+link deploy en filezilla
+http://servicioaire.lovestoblog.com/pages/presupuesto.html
+link wireframe en whismical
+https://whimsical.com/VrThsdasyTpLQArQjH2c6x
 
 
 
