@@ -18,7 +18,7 @@
     .main {
         grid-area: main;
     }
-
+    
     .footer {
         grid-area: footer;
     }
@@ -36,14 +36,14 @@
         margin: 20px;
     }
 
-    .main__Imagen2 {
-        margin: 20px;
+    .main__Imagen2{
+    margin: 20px;
     }
 
-    a {
+    a{
         font-size: 22px;
     }
-
+    
     .footer__grid {
         background-color: rgb(87, 154, 255);
         display: flex;
@@ -51,16 +51,13 @@
         flex-direction: row
     }
 
-    .footer__ImgWsp {
-        width: 80px;
-        height: auto;
+    .footer__ImgWsp{
+        width: 60%;
     }
 
 
-
-
     /* -------------------------------- gridIndex ------------------------------- */
-
+    
     .gridMain {
         display: grid;
         grid-template-areas:
@@ -109,8 +106,8 @@
     .main__form {
         width: 460px;
     }
-
-
+    
+    
     /* ------------------------------ gridNosotros ------------------------------ */
 
     .gridNosotros {
@@ -146,7 +143,7 @@
         padding: 0;
         margin: 20px 0;
     }
-
+    
     /* ------------------------------ gridContacto ------------------------------ */
 
     .main__gridContacto {
@@ -190,7 +187,7 @@
     .main__form {
         margin: 80px auto;
     }
-
+    
     /* ------------------------------ gridProducto ------------------------------ */
     .main__gridProducto {
         display: grid;
@@ -233,62 +230,13 @@
         justify-content: center;
         margin-top: 20px;
     }
+    
 
-    /* ----------------------------- gridPresupuesto ---------------------------- */
-
-    .main__gridPresupuesto {
-        display: grid;
-        grid-template-areas:
-            "main__tituloPresupuesto main__tituloPresupuestoo"
-            "main__listaPresupuesto main__imagenPresupuesto";
-        grid-template-columns: 50% 50%;
-        grid-template-rows: auto 700px;
-    }
-
-    .main__tituloPresupuesto {
-        grid-area: main__tituloPresupuesto;
-    }
-
-    .main__listaPresupuesto {
-        grid-area: main__listaPresupuesto;
-    }
-
-    .main__imagenPresupuesto {
-        grid-area: main__imagenPresupuesto;
-    }
-
-    .main__imagenPresupuesto {
-        padding: 20px;
-        margin: 20px;
-    }
-
-    .main__listaPresupuesto {
-        padding: 20px;
-        margin: 50px;
-    }
-
-    .main__imagenPresupuesto {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .main__gridPresupuesto {
-        background-color: rgb(232, 232, 232);
-    }
-
-    .main__tituloPresupuesto {
-        display: flex;
-        flex-direction: column;
-        align-items: end;
-        margin-top: 40px;
-    }
-
-    .main__iamgenPresupuesto2 {
+    .main__iamgenPresupuesto2{
         width: 600PX;
         height: auto;
         padding-right: 30px;
     }
 
 }
+

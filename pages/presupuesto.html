@@ -8,10 +8,13 @@
     <!-- ---------------------------- Link favicon ----------------------------- -->
     <link rel="shortcut icon" href="../imagenes/icono.jpg" type="image/x-icon">
     <title>PRESUPUESTO- AIRES ACONDICIONADOS AGUIRRE</title>
-     <!-- ------------------------------ Etiqueta Meta ------------------------------ -->
-     <meta name="description" content="¿Necesitas una reparación o mantenimiento de aire acondicionado? ¡Obtén un presupuesto gratuito de nuestros expertos en técnicos de aires acondicionados hoy mismo!
+    <!-- --------------------------- link bootstrap ---------------------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- ------------------------------ Etiqueta Meta ------------------------------ -->
+    <meta name="description" content="¿Necesitas una reparación o mantenimiento de aire acondicionado? ¡Obtén un presupuesto gratuito de nuestros expertos en técnicos de aires acondicionados hoy mismo!
      ">
-     <meta name= "keywords" content="buenos precios, accesibilidad, targetas, efectivo, mercado pago,">
+    <meta name="keywords" content="buenos precios, accesibilidad, targetas, efectivo, mercado pago,">
     <!-- ---------------------------- link css aos ----------------------------- -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- ------------------------------ Link css ------------------------------- -->
@@ -20,14 +23,14 @@
 
 <body>
     <!-- -------------------------------- Grid --------------------------------- -->
-    <div class="grid">
-    <!-- ------------------------------- Header -------------------------------- -->
-        <header class="header" data-aos="zoom-out">
-            <div class="header__Logo">
+    <div class="div__producto">
+        <!-- ------------------------------- Header -------------------------------- -->
+        <header class="header">
+            <div class="header__Logo" data-aos="zoom-out">
                 <img src="../imagenes/icono.jpg" alt="ImgLogo" class="header__Imagen">
             </div>
             <nav>
-                <ul class="header__nav">
+                <ul class="header__nav" data-aos="zoom-out">
                     <li><a href="../index.html">INICIO</a></li>
                     <li><a href="nosotros.html">NOSOTROS</a></li>
                     <li><a href="contacto.html">CONTACTO</a></li>
@@ -36,27 +39,56 @@
                 </ul>
             </nav>
         </header>
-        <main class="main__gridPresupuesto">
-            <div class="main__tituloPresupuesto" data-aos="fade-up">
+        <main class="container">
+            <div class="main__presupuesto">
                 <h1>PRESUPUESTOS</h1>
             </div>
-            <div class="main__listaPresupuesto">
-                <ul>
-                    <li> DE: INSTALACION DE EQUIPOS DE TODAS LAS MEDIDAS</li>
-                    <li>DE: TRASLADOS DE EQUIPOS</li>
-                    <li>DE: CARGA DE GAS</li>
-                    <li>DE: LIMPEZA</li>
-                    <LI>DE: DESINSTALACION</LI>
-                    <li>DE: MANTENIMIENTO</li>
-                </ul>
-            </div>
-            <div class="main__imagenPresupuesto">
-                <h1>TRABAJAMOS CON LAS MEJORES MARCAS</h1>
-                <img src="../imagenes/ImagenMarcas.jpg" alt="imgMarcas" class="main__iamgenPresupuesto2">
+            <div class="row">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="../imagenes/imagenpresupuesto3.jpg" class="d-block w-100" alt="Imagenpresupuesto">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>NO DUDES EN CONSULTAR LOS PRECIOS, ENVIANDONOS UN MENSAJE</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="../imagenes/imagenpresupuesto1.jpg" class="d-block w-100" alt="imagenpresupuesto1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>NO DUDES EN CONSULTAR LOS PRECIOS, ENVIANDONOS UN MENSAJE</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../imagenes/imagenpresupuesto2.jpg" class="d-block w-100"
+                                alt="iamgenpresupuesto2">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>NO DUDES EN CONSULTAR LOS PRECIOS, ENVIANDONOS UN MENSAJE</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
 
         </main>
-    <!-- ------------------------------- Footer -------------------------------- -->
+        <!-- ------------------------------- Footer -------------------------------- -->
         <footer class="footer__grid">
             <div class="footer__logo">
                 <img src="../imagenes/icono.jpg" alt="ImgFoo" class="footer__Imagen">
@@ -76,7 +108,10 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 
 </body>
 

@@ -251,8 +251,7 @@ span {
 }
 
 .footer__TituloContacto:hover {
-  background-color: rgb(255, 255, 255);
-  padding: 4px;
+  background-color: rgb(49, 156, 72);
   border-radius: 50px;
 }
 
@@ -304,8 +303,7 @@ span {
     flex-direction: row;
   }
   .footer__ImgWsp {
-    width: 80px;
-    height: auto;
+    width: 60%;
   }
   /* -------------------------------- gridIndex ------------------------------- */
   .gridMain {
@@ -435,45 +433,6 @@ span {
     justify-content: center;
     margin-top: 20px;
   }
-  /* ----------------------------- gridPresupuesto ---------------------------- */
-  .main__gridPresupuesto {
-    display: grid;
-    grid-template-areas: "main__tituloPresupuesto main__tituloPresupuestoo" "main__listaPresupuesto main__imagenPresupuesto";
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto 700px;
-  }
-  .main__tituloPresupuesto {
-    grid-area: main__tituloPresupuesto;
-  }
-  .main__listaPresupuesto {
-    grid-area: main__listaPresupuesto;
-  }
-  .main__imagenPresupuesto {
-    grid-area: main__imagenPresupuesto;
-  }
-  .main__imagenPresupuesto {
-    padding: 20px;
-    margin: 20px;
-  }
-  .main__listaPresupuesto {
-    padding: 20px;
-    margin: 50px;
-  }
-  .main__imagenPresupuesto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .main__gridPresupuesto {
-    background-color: rgb(232, 232, 232);
-  }
-  .main__tituloPresupuesto {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    margin-top: 40px;
-  }
   .main__iamgenPresupuesto2 {
     width: 600PX;
     height: auto;
@@ -596,8 +555,30 @@ span {
   border: 1px solid #97d848;
 }
 
-.main__gridProducto {
+.main__gridProducto,
+.div__producto {
   background-color: rgb(232, 232, 232);
+}
+
+.main__presupuesto {
+  background-color: rgb(238, 238, 238);
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__divpresupuesto {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 150px 150px;
+}
+
+.main__divImagen {
+  background-color: rebeccapurple;
+  color: white;
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -36,7 +36,7 @@
         -webkit-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 9px 12px 9px -7px rgba(0, 0, 0, 0.75);
         margin: 20px 0 0 0;
-    }    
+    }
 }
 
 .main--card {
@@ -87,8 +87,9 @@
 }
 
 .main__gridContacto,
-.gridMain {
-    background-color: rgb(232, 232, 232);
+.gridMain,
+{
+background-color: rgb(232, 232, 232);
 }
 
 .main__input {
@@ -123,6 +124,29 @@
     border: 1px solid #97d848;
 }
 
-.main__gridProducto {
+.main__gridProducto,
+.div__producto {
     background-color: rgb(232, 232, 232);
+}
+
+.main__presupuesto {
+    background-color: rgb(238, 238, 238);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__divpresupuesto {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 150px 150px;
+}
+
+.main__divImagen{
+            background-color: rebeccapurple;
+        color: white;
+        padding: 1rem;
+    
 }
