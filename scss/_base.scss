@@ -105,6 +105,15 @@ span {
 ::-webkit-textarea-placeholder {
     color: #a8a8a8;
 }
+
+.body__img{
+    z-index: -1;
+    position: fixed;
+}
+
+.body__nosotros, .div__nosotros{
+    min-height: 100vh;
+}
   
 /* --------------------------------- MOBILE --------------------------------- */
 @media screen and (max-width: 768px) {
@@ -132,7 +141,7 @@ span {
 
     .header__nav li a:hover {
         font-size: 30px;
-        background-color: black;
+        background-color: rgb(0, 0, 0);
         padding: 4px;
         border-radius: 10px;
     }

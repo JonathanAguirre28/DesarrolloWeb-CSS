@@ -9,7 +9,7 @@
 }
 .header .header__nav li a:hover {
   font-size: 30px;
-  background-color: black;
+  background-color: royalblue;
   padding: 4px;
   border-radius: 10px;
 }
@@ -112,6 +112,15 @@ span {
   color: #a8a8a8;
 }
 
+.body__img {
+  z-index: -1;
+  position: fixed;
+}
+
+.body__nosotros, .div__nosotros {
+  min-height: 100vh;
+}
+
 /* --------------------------------- MOBILE --------------------------------- */
 @media screen and (max-width: 768px) {
   .header__nav {
@@ -134,7 +143,7 @@ span {
   }
   .header__nav li a:hover {
     font-size: 30px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     padding: 4px;
     border-radius: 10px;
   }
@@ -242,15 +251,6 @@ span {
 .footer__grid .footer__Imagen {
   width: 100px;
   height: 100px;
-}
-
-.footer__titulorrss:hover {
-  background-color: rgb(1, 12, 3);
-  padding: 4px;
-  border-radius: 30px;
-}
-.footer__titulorrss:hover .footer__titulorrss {
-  transition: all 0.5s;
 }
 
 .footer__TituloContacto:hover {
@@ -409,6 +409,9 @@ span {
     grid-template-areas: "main__tituloProducto main__tituloProducto" "main__parrafoProducto main__ImagenProducto";
     grid-template-columns: 50% 50%;
     grid-template-rows: auto 700px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
   }
   .main__tituloProducto {
     grid-area: main__tituloProducto;
@@ -558,13 +561,11 @@ span {
   border: 1px solid #97d848;
 }
 
-.main__gridProducto,
-.div__producto {
+.main__gridProducto {
   background-color: rgb(232, 232, 232);
 }
 
 .main__presupuesto {
-  background-color: rgb(238, 238, 238);
   font-size: 20px;
   display: flex;
   flex-direction: column;
