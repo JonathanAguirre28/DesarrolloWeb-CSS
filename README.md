@@ -16,6 +16,8 @@ link deploy en filezilla
 http://servicioaire.lovestoblog.com/pages/presupuesto.html
 link wireframe en whismical
 https://whimsical.com/VrThsdasyTpLQArQjH2c6x
+link github repository
+https://github.com/JonathanAguirre28/ProyectoFinal-2-Aguirre/blob/main/README.md
 
 
 
