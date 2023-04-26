@@ -117,130 +117,11 @@ span {
   position: fixed;
 }
 
-.body__nosotros, .div__nosotros {
+.body__nosotros,
+.div__nosotros {
   min-height: 100vh;
 }
 
-/* --------------------------------- MOBILE --------------------------------- */
-@media screen and (max-width: 768px) {
-  .header__nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .header {
-    background-color: rgb(87, 154, 255);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-  }
-  a {
-    color: azure;
-    background-color: transparent;
-    font-size: 18px;
-    text-decoration: none;
-  }
-  .header__nav li a:hover {
-    font-size: 30px;
-    background-color: rgb(0, 0, 0);
-    padding: 4px;
-    border-radius: 10px;
-  }
-  li {
-    padding: 2px;
-    margin: 2px;
-  }
-  p {
-    font-size: 18px;
-  }
-  .footer__ImgWsp {
-    width: 60px;
-    height: auto;
-    border-radius: 50px;
-    padding: 10px;
-  }
-  h1 {
-    font-size: 18px;
-  }
-  .main__titulo {
-    margin: 20px;
-  }
-  .main__ParrafoIzq,
-  .main__ParrafoDer {
-    padding: 10px;
-  }
-  .gridNosotros {
-    display: flex;
-    flex-direction: column;
-  }
-  .main__ImagenNos {
-    margin: 10px;
-  }
-  .main__gridContacto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .main__ImgContacto,
-  .main__desaparecerP {
-    display: none;
-  }
-  .main__contactoModificador {
-    font-size: 18px;
-  }
-  .main__form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 75%;
-  }
-  input {
-    width: 300px;
-  }
-  textarea {
-    width: 300px;
-  }
-  button {
-    width: 300px;
-  }
-  .main__gridPresupuesto {
-    background-color: rgb(232, 232, 232);
-  }
-  .main__parrafoProducto {
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    color: rgb(1, 59, 26);
-    padding: 5px;
-  }
-  .main__tituloProducto {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-  }
-  .main__iamgenPresupuesto2 {
-    width: 300px;
-    height: auto;
-    margin: 25px;
-  }
-  .main__listaPresupuesto {
-    margin: 20px;
-  }
-  .main__tituloPresupuesto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
-  input {
-    padding-left: 0;
-  }
-  textarea {
-    padding-left: 0;
-  }
-  .header__navpresupuesto {
-    padding-left: 0%;
-  }
-}
 .footer__grid {
   background-color: rgb(87, 154, 255);
   display: flex;
@@ -444,6 +325,126 @@ span {
     width: 600PX;
     height: auto;
     padding-right: 30px;
+  }
+}
+/* --------------------------------- MOBILE --------------------------------- */
+@media screen and (max-width: 768px) {
+  .header__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header {
+    background-color: rgb(87, 154, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  li {
+    padding: 2px;
+    margin: 2px;
+  }
+  li a {
+    color: azure;
+    background-color: transparent;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .header__nav li a:hover {
+    font-size: 30px;
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    border-radius: 10px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .footer__ImgWsp {
+    width: 60px;
+    height: auto;
+    border-radius: 50px;
+    padding: 10px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  .main__titulo {
+    margin: 20px;
+  }
+  .main__ParrafoIzq,
+  .main__ParrafoDer {
+    padding: 10px;
+  }
+  .gridNosotros {
+    display: flex;
+    flex-direction: column;
+  }
+  .main__ImagenNos {
+    margin: 10px;
+  }
+  .main__gridContacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main__ImgContacto,
+  .main__desaparecerP {
+    display: none;
+  }
+  .main__contactoModificador {
+    font-size: 18px;
+  }
+  .main__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+  }
+  input {
+    width: 300px;
+  }
+  textarea {
+    width: 300px;
+  }
+  button {
+    width: 300px;
+  }
+  .main__gridPresupuesto {
+    background-color: rgb(232, 232, 232);
+  }
+  .main__parrafoProducto {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: rgb(1, 59, 26);
+    padding: 5px;
+  }
+  .main__tituloProducto {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .main__iamgenPresupuesto2 {
+    width: 300px;
+    height: auto;
+    margin: 25px;
+  }
+  .main__listaPresupuesto {
+    margin: 20px;
+  }
+  .main__tituloPresupuesto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  input {
+    padding-left: 0;
+  }
+  textarea {
+    padding-left: 0;
+  }
+  .header__navpresupuesto {
+    padding-left: 0%;
   }
 }
 .main__Imagen {
