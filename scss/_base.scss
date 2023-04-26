@@ -105,7 +105,6 @@ span {
 ::-webkit-textarea-placeholder {
     color: #a8a8a8;
 }
-
   
 /* --------------------------------- MOBILE --------------------------------- */
 @media screen and (max-width: 768px) {
@@ -148,7 +147,7 @@ span {
     }
 
     .footer__ImgWsp {
-        width: 50px;
+        width: 60px;
         height: auto;
         border-radius: 50px;
         padding: 10px;
@@ -252,5 +251,9 @@ span {
 
     textarea{
         padding-left: 0;
+    }
+
+    .header__navpresupuesto{
+        padding-left: 0%;
     }
 }
